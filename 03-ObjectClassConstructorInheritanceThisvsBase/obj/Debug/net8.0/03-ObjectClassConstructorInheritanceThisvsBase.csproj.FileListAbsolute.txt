@@ -1,0 +1,15 @@
+C:\Users\rusla\Desktop\APA103\03-ObjectClassConstructorInheritanceThisvsBase\bin\Debug\net8.0\03-ObjectClassConstructorInheritanceThisvsBase.exe
+C:\Users\rusla\Desktop\APA103\03-ObjectClassConstructorInheritanceThisvsBase\bin\Debug\net8.0\03-ObjectClassConstructorInheritanceThisvsBase.deps.json
+C:\Users\rusla\Desktop\APA103\03-ObjectClassConstructorInheritanceThisvsBase\bin\Debug\net8.0\03-ObjectClassConstructorInheritanceThisvsBase.runtimeconfig.json
+C:\Users\rusla\Desktop\APA103\03-ObjectClassConstructorInheritanceThisvsBase\bin\Debug\net8.0\03-ObjectClassConstructorInheritanceThisvsBase.dll
+C:\Users\rusla\Desktop\APA103\03-ObjectClassConstructorInheritanceThisvsBase\bin\Debug\net8.0\03-ObjectClassConstructorInheritanceThisvsBase.pdb
+C:\Users\rusla\Desktop\APA103\03-ObjectClassConstructorInheritanceThisvsBase\obj\Debug\net8.0\03-ObjectClassConstructorInheritanceThisvsBase.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rusla\Desktop\APA103\03-ObjectClassConstructorInheritanceThisvsBase\obj\Debug\net8.0\03-ObjectClassConstructorInheritanceThisvsBase.AssemblyInfoInputs.cache
+C:\Users\rusla\Desktop\APA103\03-ObjectClassConstructorInheritanceThisvsBase\obj\Debug\net8.0\03-ObjectClassConstructorInheritanceThisvsBase.AssemblyInfo.cs
+C:\Users\rusla\Desktop\APA103\03-ObjectClassConstructorInheritanceThisvsBase\obj\Debug\net8.0\03-ObjectClassConstructorInheritanceThisvsBase.csproj.CoreCompileInputs.cache
+C:\Users\rusla\Desktop\APA103\03-ObjectClassConstructorInheritanceThisvsBase\obj\Debug\net8.0\03-ObjectClassConstructorInheritanceThisvsBase.sourcelink.json
+C:\Users\rusla\Desktop\APA103\03-ObjectClassConstructorInheritanceThisvsBase\obj\Debug\net8.0\03-ObjectClassConstructorInheritanceThisvsBase.dll
+C:\Users\rusla\Desktop\APA103\03-ObjectClassConstructorInheritanceThisvsBase\obj\Debug\net8.0\refint\03-ObjectClassConstructorInheritanceThisvsBase.dll
+C:\Users\rusla\Desktop\APA103\03-ObjectClassConstructorInheritanceThisvsBase\obj\Debug\net8.0\03-ObjectClassConstructorInheritanceThisvsBase.pdb
+C:\Users\rusla\Desktop\APA103\03-ObjectClassConstructorInheritanceThisvsBase\obj\Debug\net8.0\03-ObjectClassConstructorInheritanceThisvsBase.genruntimeconfig.cache
+C:\Users\rusla\Desktop\APA103\03-ObjectClassConstructorInheritanceThisvsBase\obj\Debug\net8.0\ref\03-ObjectClassConstructorInheritanceThisvsBase.dll
