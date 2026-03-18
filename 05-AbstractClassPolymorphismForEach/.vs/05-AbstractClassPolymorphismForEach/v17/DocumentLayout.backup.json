@@ -1,0 +1,101 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rusla\\Desktop\\APA103\\05-AbstractClassPolymorphismForEach\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A47849DF-F505-48E0-B869-43ACFC2DD7F1}|05-AbstractClassPolymorphismForEach.csproj|c:\\users\\rusla\\desktop\\apa103\\05-abstractclasspolymorphismforeach\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A47849DF-F505-48E0-B869-43ACFC2DD7F1}|05-AbstractClassPolymorphismForEach.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A47849DF-F505-48E0-B869-43ACFC2DD7F1}|05-AbstractClassPolymorphismForEach.csproj|c:\\users\\rusla\\desktop\\apa103\\05-abstractclasspolymorphismforeach\\models\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A47849DF-F505-48E0-B869-43ACFC2DD7F1}|05-AbstractClassPolymorphismForEach.csproj|solutionrelative:models\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A47849DF-F505-48E0-B869-43ACFC2DD7F1}|05-AbstractClassPolymorphismForEach.csproj|c:\\users\\rusla\\desktop\\apa103\\05-abstractclasspolymorphismforeach\\models\\truck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A47849DF-F505-48E0-B869-43ACFC2DD7F1}|05-AbstractClassPolymorphismForEach.csproj|solutionrelative:models\\truck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A47849DF-F505-48E0-B869-43ACFC2DD7F1}|05-AbstractClassPolymorphismForEach.csproj|c:\\users\\rusla\\desktop\\apa103\\05-abstractclasspolymorphismforeach\\models\\motorcycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A47849DF-F505-48E0-B869-43ACFC2DD7F1}|05-AbstractClassPolymorphismForEach.csproj|solutionrelative:models\\motorcycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A47849DF-F505-48E0-B869-43ACFC2DD7F1}|05-AbstractClassPolymorphismForEach.csproj|c:\\users\\rusla\\desktop\\apa103\\05-abstractclasspolymorphismforeach\\models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A47849DF-F505-48E0-B869-43ACFC2DD7F1}|05-AbstractClassPolymorphismForEach.csproj|solutionrelative:models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Truck.cs",
+              "DocumentMoniker": "C:\\Users\\rusla\\Desktop\\APA103\\05-AbstractClassPolymorphismForEach\\Models\\Truck.cs",
+              "RelativeDocumentMoniker": "Models\\Truck.cs",
+              "ToolTip": "C:\\Users\\rusla\\Desktop\\APA103\\05-AbstractClassPolymorphismForEach\\Models\\Truck.cs",
+              "RelativeToolTip": "Models\\Truck.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAowA8AAACNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T20:18:03.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Motorcycle.cs",
+              "DocumentMoniker": "C:\\Users\\rusla\\Desktop\\APA103\\05-AbstractClassPolymorphismForEach\\Models\\Motorcycle.cs",
+              "RelativeDocumentMoniker": "Models\\Motorcycle.cs",
+              "ToolTip": "C:\\Users\\rusla\\Desktop\\APA103\\05-AbstractClassPolymorphismForEach\\Models\\Motorcycle.cs",
+              "RelativeToolTip": "Models\\Motorcycle.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAAA8AAACJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T20:15:55.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Car.cs",
+              "DocumentMoniker": "C:\\Users\\rusla\\Desktop\\APA103\\05-AbstractClassPolymorphismForEach\\Models\\Car.cs",
+              "RelativeDocumentMoniker": "Models\\Car.cs",
+              "ToolTip": "C:\\Users\\rusla\\Desktop\\APA103\\05-AbstractClassPolymorphismForEach\\Models\\Car.cs",
+              "RelativeToolTip": "Models\\Car.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAB+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T20:15:47.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Vehicle.cs",
+              "DocumentMoniker": "C:\\Users\\rusla\\Desktop\\APA103\\05-AbstractClassPolymorphismForEach\\Models\\Vehicle.cs",
+              "RelativeDocumentMoniker": "Models\\Vehicle.cs",
+              "ToolTip": "C:\\Users\\rusla\\Desktop\\APA103\\05-AbstractClassPolymorphismForEach\\Models\\Vehicle.cs",
+              "RelativeToolTip": "Models\\Vehicle.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAowBAAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T20:15:41.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\rusla\\Desktop\\APA103\\05-AbstractClassPolymorphismForEach\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\rusla\\Desktop\\APA103\\05-AbstractClassPolymorphismForEach\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T20:11:18.234Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
