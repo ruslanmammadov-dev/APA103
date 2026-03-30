@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rusla\\Desktop\\APA103\\06-InterfaceAbstraction\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{013F0F45-D54A-4989-8059-E9D29CAB7A0F}|06-InterfaceAbstraction.csproj|c:\\users\\rusla\\desktop\\apa103\\06-interfaceabstraction\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{013F0F45-D54A-4989-8059-E9D29CAB7A0F}|06-InterfaceAbstraction.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{013F0F45-D54A-4989-8059-E9D29CAB7A0F}|06-InterfaceAbstraction.csproj|c:\\users\\rusla\\desktop\\apa103\\06-interfaceabstraction\\models\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{013F0F45-D54A-4989-8059-E9D29CAB7A0F}|06-InterfaceAbstraction.csproj|solutionrelative:models\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{013F0F45-D54A-4989-8059-E9D29CAB7A0F}|06-InterfaceAbstraction.csproj|c:\\users\\rusla\\desktop\\apa103\\06-interfaceabstraction\\actions\\interface1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{013F0F45-D54A-4989-8059-E9D29CAB7A0F}|06-InterfaceAbstraction.csproj|solutionrelative:actions\\interface1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\rusla\\Desktop\\APA103\\06-InterfaceAbstraction\\Models\\Class1.cs",
+              "RelativeDocumentMoniker": "Models\\Class1.cs",
+              "ToolTip": "C:\\Users\\rusla\\Desktop\\APA103\\06-InterfaceAbstraction\\Models\\Class1.cs*",
+              "RelativeToolTip": "Models\\Class1.cs*",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAcwBsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T18:35:22.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Interface1.cs",
+              "DocumentMoniker": "C:\\Users\\rusla\\Desktop\\APA103\\06-InterfaceAbstraction\\Actions\\Interface1.cs",
+              "RelativeDocumentMoniker": "Actions\\Interface1.cs",
+              "ToolTip": "C:\\Users\\rusla\\Desktop\\APA103\\06-InterfaceAbstraction\\Actions\\Interface1.cs*",
+              "RelativeToolTip": "Actions\\Interface1.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T18:33:27.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\rusla\\Desktop\\APA103\\06-InterfaceAbstraction\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\rusla\\Desktop\\APA103\\06-InterfaceAbstraction\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T18:22:00.011Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
