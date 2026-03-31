@@ -1,0 +1,15 @@
+C:\Users\rusla\Desktop\APA103\09-UpcastingDowncastingExplicitImplicit\bin\Debug\net8.0\09-UpcastingDowncastingExplicitImplicit.exe
+C:\Users\rusla\Desktop\APA103\09-UpcastingDowncastingExplicitImplicit\bin\Debug\net8.0\09-UpcastingDowncastingExplicitImplicit.deps.json
+C:\Users\rusla\Desktop\APA103\09-UpcastingDowncastingExplicitImplicit\bin\Debug\net8.0\09-UpcastingDowncastingExplicitImplicit.runtimeconfig.json
+C:\Users\rusla\Desktop\APA103\09-UpcastingDowncastingExplicitImplicit\bin\Debug\net8.0\09-UpcastingDowncastingExplicitImplicit.dll
+C:\Users\rusla\Desktop\APA103\09-UpcastingDowncastingExplicitImplicit\bin\Debug\net8.0\09-UpcastingDowncastingExplicitImplicit.pdb
+C:\Users\rusla\Desktop\APA103\09-UpcastingDowncastingExplicitImplicit\obj\Debug\net8.0\09-UpcastingDowncastingExplicitImplicit.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rusla\Desktop\APA103\09-UpcastingDowncastingExplicitImplicit\obj\Debug\net8.0\09-UpcastingDowncastingExplicitImplicit.AssemblyInfoInputs.cache
+C:\Users\rusla\Desktop\APA103\09-UpcastingDowncastingExplicitImplicit\obj\Debug\net8.0\09-UpcastingDowncastingExplicitImplicit.AssemblyInfo.cs
+C:\Users\rusla\Desktop\APA103\09-UpcastingDowncastingExplicitImplicit\obj\Debug\net8.0\09-UpcastingDowncastingExplicitImplicit.csproj.CoreCompileInputs.cache
+C:\Users\rusla\Desktop\APA103\09-UpcastingDowncastingExplicitImplicit\obj\Debug\net8.0\09-UpcastingDowncastingExplicitImplicit.sourcelink.json
+C:\Users\rusla\Desktop\APA103\09-UpcastingDowncastingExplicitImplicit\obj\Debug\net8.0\09-UpcastingDowncastingExplicitImplicit.dll
+C:\Users\rusla\Desktop\APA103\09-UpcastingDowncastingExplicitImplicit\obj\Debug\net8.0\refint\09-UpcastingDowncastingExplicitImplicit.dll
+C:\Users\rusla\Desktop\APA103\09-UpcastingDowncastingExplicitImplicit\obj\Debug\net8.0\09-UpcastingDowncastingExplicitImplicit.pdb
+C:\Users\rusla\Desktop\APA103\09-UpcastingDowncastingExplicitImplicit\obj\Debug\net8.0\09-UpcastingDowncastingExplicitImplicit.genruntimeconfig.cache
+C:\Users\rusla\Desktop\APA103\09-UpcastingDowncastingExplicitImplicit\obj\Debug\net8.0\ref\09-UpcastingDowncastingExplicitImplicit.dll
