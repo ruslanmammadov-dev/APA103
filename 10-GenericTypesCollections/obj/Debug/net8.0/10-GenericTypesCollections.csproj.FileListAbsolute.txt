@@ -1,0 +1,15 @@
+C:\Users\rusla\Desktop\APA103\10-GenericTypesCollections\bin\Debug\net8.0\10-GenericTypesCollections.exe
+C:\Users\rusla\Desktop\APA103\10-GenericTypesCollections\bin\Debug\net8.0\10-GenericTypesCollections.deps.json
+C:\Users\rusla\Desktop\APA103\10-GenericTypesCollections\bin\Debug\net8.0\10-GenericTypesCollections.runtimeconfig.json
+C:\Users\rusla\Desktop\APA103\10-GenericTypesCollections\bin\Debug\net8.0\10-GenericTypesCollections.dll
+C:\Users\rusla\Desktop\APA103\10-GenericTypesCollections\bin\Debug\net8.0\10-GenericTypesCollections.pdb
+C:\Users\rusla\Desktop\APA103\10-GenericTypesCollections\obj\Debug\net8.0\10-GenericTypesCollections.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rusla\Desktop\APA103\10-GenericTypesCollections\obj\Debug\net8.0\10-GenericTypesCollections.AssemblyInfoInputs.cache
+C:\Users\rusla\Desktop\APA103\10-GenericTypesCollections\obj\Debug\net8.0\10-GenericTypesCollections.AssemblyInfo.cs
+C:\Users\rusla\Desktop\APA103\10-GenericTypesCollections\obj\Debug\net8.0\10-GenericTypesCollections.csproj.CoreCompileInputs.cache
+C:\Users\rusla\Desktop\APA103\10-GenericTypesCollections\obj\Debug\net8.0\10-GenericTypesCollections.sourcelink.json
+C:\Users\rusla\Desktop\APA103\10-GenericTypesCollections\obj\Debug\net8.0\10-GenericTypesCollections.dll
+C:\Users\rusla\Desktop\APA103\10-GenericTypesCollections\obj\Debug\net8.0\refint\10-GenericTypesCollections.dll
+C:\Users\rusla\Desktop\APA103\10-GenericTypesCollections\obj\Debug\net8.0\10-GenericTypesCollections.pdb
+C:\Users\rusla\Desktop\APA103\10-GenericTypesCollections\obj\Debug\net8.0\10-GenericTypesCollections.genruntimeconfig.cache
+C:\Users\rusla\Desktop\APA103\10-GenericTypesCollections\obj\Debug\net8.0\ref\10-GenericTypesCollections.dll
