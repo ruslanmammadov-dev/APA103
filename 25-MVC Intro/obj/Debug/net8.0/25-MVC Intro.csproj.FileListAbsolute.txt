@@ -1,0 +1,31 @@
+C:\Users\rusla\Desktop\25-MVC Intro\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\rusla\Desktop\25-MVC Intro\bin\Debug\net8.0\appsettings.json
+C:\Users\rusla\Desktop\25-MVC Intro\bin\Debug\net8.0\25-MVC Intro.staticwebassets.endpoints.json
+C:\Users\rusla\Desktop\25-MVC Intro\bin\Debug\net8.0\25-MVC Intro.exe
+C:\Users\rusla\Desktop\25-MVC Intro\bin\Debug\net8.0\25-MVC Intro.deps.json
+C:\Users\rusla\Desktop\25-MVC Intro\bin\Debug\net8.0\25-MVC Intro.runtimeconfig.json
+C:\Users\rusla\Desktop\25-MVC Intro\bin\Debug\net8.0\25-MVC Intro.dll
+C:\Users\rusla\Desktop\25-MVC Intro\bin\Debug\net8.0\25-MVC Intro.pdb
+C:\Users\rusla\Desktop\25-MVC Intro\obj\Debug\net8.0\25-MVC Intro.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rusla\Desktop\25-MVC Intro\obj\Debug\net8.0\25-MVC Intro.AssemblyInfoInputs.cache
+C:\Users\rusla\Desktop\25-MVC Intro\obj\Debug\net8.0\25-MVC Intro.AssemblyInfo.cs
+C:\Users\rusla\Desktop\25-MVC Intro\obj\Debug\net8.0\25-MVC Intro.csproj.CoreCompileInputs.cache
+C:\Users\rusla\Desktop\25-MVC Intro\obj\Debug\net8.0\25-MVC Intro.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\rusla\Desktop\25-MVC Intro\obj\Debug\net8.0\scopedcss\bundle\25-MVC Intro.styles.css
+C:\Users\rusla\Desktop\25-MVC Intro\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\rusla\Desktop\25-MVC Intro\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\rusla\Desktop\25-MVC Intro\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\rusla\Desktop\25-MVC Intro\obj\Debug\net8.0\staticwebassets\msbuild.25-MVC Intro.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\rusla\Desktop\25-MVC Intro\obj\Debug\net8.0\staticwebassets\msbuild.25-MVC Intro.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\rusla\Desktop\25-MVC Intro\obj\Debug\net8.0\staticwebassets\msbuild.build.25-MVC Intro.props
+C:\Users\rusla\Desktop\25-MVC Intro\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.25-MVC Intro.props
+C:\Users\rusla\Desktop\25-MVC Intro\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.25-MVC Intro.props
+C:\Users\rusla\Desktop\25-MVC Intro\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\rusla\Desktop\25-MVC Intro\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\rusla\Desktop\25-MVC Intro\obj\Debug\net8.0\25-MVC Intro.dll
+C:\Users\rusla\Desktop\25-MVC Intro\obj\Debug\net8.0\refint\25-MVC Intro.dll
+C:\Users\rusla\Desktop\25-MVC Intro\obj\Debug\net8.0\25-MVC Intro.pdb
+C:\Users\rusla\Desktop\25-MVC Intro\obj\Debug\net8.0\25-MVC Intro.genruntimeconfig.cache
+C:\Users\rusla\Desktop\25-MVC Intro\obj\Debug\net8.0\ref\25-MVC Intro.dll
+C:\Users\rusla\Desktop\25-MVC Intro\obj\Debug\net8.0\25-MVC Intro.RazorAssemblyInfo.cache
+C:\Users\rusla\Desktop\25-MVC Intro\obj\Debug\net8.0\25-MVC Intro.RazorAssemblyInfo.cs
