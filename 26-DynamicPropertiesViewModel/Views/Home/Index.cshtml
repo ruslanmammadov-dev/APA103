@@ -1,0 +1,14 @@
+﻿@using _26_DynamicPropertiesViewModel.ViewModels
+@model ProductListViewModel
+
+<h2>@ViewBag.Message</h2>
+
+<h3>Kategoriya: @Model.CategoryName</h3>
+<p>Umumi Mehsul Sayisi: @Model.TotalCount</p>
+
+<ul>
+    @foreach (var item in Model.Products)
+    {
+        <li>@item.Name - @item.Price.ToString("C")</li>
+    }
+</ul>

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rusla\\Desktop\\25-MVC Intro\\25-MVC Intro.csproj": {}
+    "C:\\Users\\rusla\\Desktop\\APA103\\25-MVC Intro\\25-MVC Intro.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rusla\\Desktop\\25-MVC Intro\\25-MVC Intro.csproj": {
+    "C:\\Users\\rusla\\Desktop\\APA103\\25-MVC Intro\\25-MVC Intro.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rusla\\Desktop\\25-MVC Intro\\25-MVC Intro.csproj",
+        "projectUniqueName": "C:\\Users\\rusla\\Desktop\\APA103\\25-MVC Intro\\25-MVC Intro.csproj",
         "projectName": "25-MVC Intro",
-        "projectPath": "C:\\Users\\rusla\\Desktop\\25-MVC Intro\\25-MVC Intro.csproj",
+        "projectPath": "C:\\Users\\rusla\\Desktop\\APA103\\25-MVC Intro\\25-MVC Intro.csproj",
         "packagesPath": "C:\\Users\\rusla\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rusla\\Desktop\\25-MVC Intro\\obj\\",
+        "outputPath": "C:\\Users\\rusla\\Desktop\\APA103\\25-MVC Intro\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
