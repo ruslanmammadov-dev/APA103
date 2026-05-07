@@ -1,4 +1,4 @@
-﻿namespace _27_FrontToBackSqlConnection.Models
+﻿namespace _27_FrontToBackSqlConnection.Models.Base
 {
     public abstract class BaseEntity
     {

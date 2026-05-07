@@ -1,4 +1,6 @@
-﻿namespace _27_FrontToBackSqlConnection.Models
+﻿using _27_FrontToBackSqlConnection.Models.Base;
+
+namespace _27_FrontToBackSqlConnection.Models
 {
     public class Slider : BaseEntity
     {
