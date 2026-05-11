@@ -22,10 +22,9 @@ public class HomeController : Controller
             .ToList();
 
         List<Product> products = _context.Products
-            .Include(p => p.Category)
-            .Include(p => p.ProductImages)
-            .Where(p => !p.IsDeleted)
-            .ToList();
+        .Where(p => !p.IsDeleted)
+        .Include(p => p.ProductImages.Where(pi => pi.IsPrimary != null))
+        .ToList();
 
         HomeVM homeVM = new HomeVM()
         {
