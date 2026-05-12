@@ -11,9 +11,11 @@ namespace _27_FrontToBackSqlConnection
 
             builder.Services.AddControllersWithViews();
 
+            string connectionString = builder.Configuration.GetConnectionString("Default");
+
             builder.Services.AddDbContext<AppDbContext>(options =>
             {
-                options.UseSqlServer("Server=DESKTOP-A7S0FLD\\SQLEXPRESS;Database=ProniaDb;Trusted_Connection=True;TrustServerCertificate=True");
+                options.UseSqlServer(connectionString);
             });
 
             var app = builder.Build();
@@ -30,6 +32,10 @@ namespace _27_FrontToBackSqlConnection
             app.UseRouting();
 
             app.UseAuthorization();
+
+            app.MapControllerRoute(
+                name: "admin",
+                pattern: "{area:exists}/{controller=Dashboard}/{action=Index}/{id?}");
 
             app.MapControllerRoute(
                 name: "default",

@@ -1,10 +1,13 @@
-﻿using _27_FrontToBackSqlConnection.Models.Base;
+﻿using System.ComponentModel.DataAnnotations;
+using _27_FrontToBackSqlConnection.Models.Base;
 
 namespace _27_FrontToBackSqlConnection.Models
 {
     public class Category : BaseEntity
     {
-        public string Name { get; set; }
-        public List<Product> Products { get; set; }
+        [Required]
+        [MaxLength(30,ErrorMessage ="Max Length 30")]
+        public string? Name { get; set; }
+        public List<Product>? Products { get; set; }
     }
 }
