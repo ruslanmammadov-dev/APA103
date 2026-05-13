@@ -1,4 +1,5 @@
-﻿using _27_FrontToBackSqlConnection.Models.Base;
+﻿using System.ComponentModel.DataAnnotations.Schema;
+using _27_FrontToBackSqlConnection.Models.Base;
 
 namespace _27_FrontToBackSqlConnection.Models
 {
@@ -9,5 +10,7 @@ namespace _27_FrontToBackSqlConnection.Models
         public string Description { get; set; }
         public string Image { get; set; }
         public int Order { get; set; }
+        [NotMapped]
+        public IFormFile Photo { get; set; }
     }
 }

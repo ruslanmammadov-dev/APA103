@@ -1,0 +1,50 @@
+﻿@using _27_FrontToBackSqlConnection.Models
+@model Slider
+
+<div class="main-panel">
+    <div class="content-wrapper">
+        <div class="row">
+            <div class="col-md-6 grid-margin stretch-card">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Create Category</h4>
+                        <p class="card-description">
+                            Add a new category to your store
+                        </p>
+                        <form class="forms-sample" method="post" asp-action="Create" enctype="multipart/form-data">
+
+                            <div class="form-group">
+                                <label asp-for="Photo">Slider Image</label>
+                                <input asp-for="Photo" class="form-control" placeholder="Enter slider image">
+                                <span asp-validation-for="Image" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Title">Slider Title</label>
+                                <input asp-for="Title" class="form-control" placeholder="Enter slider title">
+                                <span asp-validation-for="Title" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Subtitle">Slider Subtitle</label>
+                                <input asp-for="Subtitle" class="form-control" placeholder="Enter slider subtitle">
+                                <span asp-validation-for="Subtitle" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Order">Slider Order</label>
+                                <input asp-for="Order" class="form-control" placeholder="Enter slider Order">
+                                <span asp-validation-for="Title" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Description">Slider Description</label>
+                                <textarea asp-for="Description" class="form-control" placeholder="Enter slider description"></textarea>
+                                <span asp-validation-for="Title" class="text-danger"></span>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary me-2">Submit</button>
+                            <a asp-action="Index" class="btn btn-light">Cancel</a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
