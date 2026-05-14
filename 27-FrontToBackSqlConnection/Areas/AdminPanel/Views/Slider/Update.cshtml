@@ -1,6 +1,6 @@
 ﻿@using _27_FrontToBackSqlConnection.Areas.AdminPanel.ViewModels.Slider
 @using _27_FrontToBackSqlConnection.Models
-@model SliderCreateVM
+@model SliderUpdateVM
 
 <div class="main-panel">
     <div class="content-wrapper">
@@ -8,12 +8,15 @@
             <div class="col-md-6 grid-margin stretch-card">
                 <div class="card">
                     <div class="card-body">
-                        <h4 class="card-title">Create Category</h4>
+                        <h4 class="card-title">Update Category</h4>
                         <p class="card-description">
                             Add a new category to your store
                         </p>
-                        <form class="forms-sample" method="post" asp-action="Create" enctype="multipart/form-data">
+                        <form class="forms-sample" method="post" asp-action="Update" enctype="multipart/form-data">
 
+                            <div class="form-group">
+                               <img style="width:300px" src="~/assets/images/website-images/@Model.Image" alt="Alternate Text" />
+                            </div>
                             <div class="form-group">
                                 <label asp-for="Photo">Slider Image</label>
                                 <input asp-for="Photo" class="form-control" placeholder="Enter slider image" accept="image/*">

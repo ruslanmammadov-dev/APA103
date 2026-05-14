@@ -256,7 +256,6 @@ wwwroot\assets\images\website-images\1-1170x300.jpg
 wwwroot\assets\images\website-images\1-1-1820x443.jpg
 wwwroot\assets\images\website-images\1-1-270x300.jpg
 wwwroot\assets\images\website-images\1-1-310x220.jpg
-wwwroot\assets\images\website-images\1-1-524x617.png
 wwwroot\assets\images\website-images\1-1-570x633.jpg
 wwwroot\assets\images\website-images\1-1-768x546.webp
 wwwroot\assets\images\website-images\1-1-770x300.jpg
