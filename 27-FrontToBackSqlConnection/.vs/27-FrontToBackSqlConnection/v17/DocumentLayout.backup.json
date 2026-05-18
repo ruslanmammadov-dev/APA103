@@ -86,9 +86,9 @@
               "Title": "Detail.cshtml",
               "DocumentMoniker": "C:\\Users\\rusla\\Desktop\\APA103\\27-FrontToBackSqlConnection\\Areas\\AdminPanel\\Views\\Slider\\Detail.cshtml",
               "RelativeDocumentMoniker": "Areas\\AdminPanel\\Views\\Slider\\Detail.cshtml",
-              "ToolTip": "C:\\Users\\rusla\\Desktop\\APA103\\27-FrontToBackSqlConnection\\Areas\\AdminPanel\\Views\\Slider\\Detail.cshtml*",
-              "RelativeToolTip": "Areas\\AdminPanel\\Views\\Slider\\Detail.cshtml*",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAACsAAAAlAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\rusla\\Desktop\\APA103\\27-FrontToBackSqlConnection\\Areas\\AdminPanel\\Views\\Slider\\Detail.cshtml",
+              "RelativeToolTip": "Areas\\AdminPanel\\Views\\Slider\\Detail.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACsAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-05-14T23:37:24.828Z",
               "EditorCaption": ""
@@ -103,8 +103,7 @@
               "RelativeToolTip": "Areas\\AdminPanel\\Views\\Slider\\Update.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-14T23:30:17.94Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-14T23:30:17.94Z"
             },
             {
               "$type": "Document",
@@ -116,8 +115,7 @@
               "RelativeToolTip": "Areas\\AdminPanel\\ViewModels\\Slider\\SliderUpdateVM.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-14T23:27:30.016Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-14T23:27:30.016Z"
             },
             {
               "$type": "Document",
@@ -129,8 +127,7 @@
               "RelativeToolTip": "Models\\Slider.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-14T23:12:21.006Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-14T23:12:21.006Z"
             },
             {
               "$type": "Document",
@@ -142,8 +139,7 @@
               "RelativeToolTip": "Areas\\AdminPanel\\ViewModels\\Slider\\SliderCreateVM.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-14T23:12:07.431Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-14T23:12:07.431Z"
             },
             {
               "$type": "Document",
@@ -155,8 +151,7 @@
               "RelativeToolTip": "Areas\\AdminPanel\\Views\\Slider\\Create.cshtml",
               "ViewState": "AgIAABoAAAAAAAAAAAAUwCUAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-14T23:03:12.799Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-14T23:03:12.799Z"
             },
             {
               "$type": "Document",
@@ -168,8 +163,7 @@
               "RelativeToolTip": "Areas\\AdminPanel\\Views\\Slider\\index.cshtml",
               "ViewState": "AgIAAC0AAAAAAAAAAAAUwDUAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-14T23:03:11.247Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-14T23:03:11.247Z"
             },
             {
               "$type": "Document",
@@ -181,8 +175,7 @@
               "RelativeToolTip": "Areas\\AdminPanel\\Controllers\\SliderController.cs",
               "ViewState": "AgIAACUAAAAAAAAAAAAowGgAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-13T21:06:36.577Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-13T21:06:36.577Z"
             },
             {
               "$type": "Document",
@@ -194,8 +187,7 @@
               "RelativeToolTip": "Utilities\\Extension\\FileValidator.cs",
               "ViewState": "AgIAACsAAAAAAAAAAAAcwDgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-14T22:41:08.71Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-14T22:41:08.71Z"
             },
             {
               "$type": "Document",
@@ -207,8 +199,7 @@
               "RelativeToolTip": "Utilities\\Enums\\FileSizes.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-14T22:44:28.039Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-14T22:44:28.039Z"
             },
             {
               "$type": "Document",
@@ -220,8 +211,7 @@
               "RelativeToolTip": "Areas\\AdminPanel\\Views\\Category\\Update.cshtml",
               "ViewState": "AgIAAAUAAAAAAAAAAAAUwA0AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-13T19:27:43.283Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-13T19:27:43.283Z"
             },
             {
               "$type": "Document",
@@ -233,8 +223,7 @@
               "RelativeToolTip": "Areas\\AdminPanel\\Controllers\\CategoryController.cs",
               "ViewState": "AgIAAFoAAAAAAAAAAAAgwG8AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-13T19:11:09.565Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-13T19:11:09.565Z"
             },
             {
               "$type": "Document",
@@ -246,8 +235,7 @@
               "RelativeToolTip": "Areas\\AdminPanel\\Views\\Category\\Index.cshtml",
               "ViewState": "AgIAABcAAAAAAAAAAAAowCwAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-13T18:59:46.431Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-13T18:59:46.431Z"
             },
             {
               "$type": "Document",
