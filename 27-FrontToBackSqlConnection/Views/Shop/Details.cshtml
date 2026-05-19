@@ -178,6 +178,26 @@
                                 </li>
                             </ul>
                         </div>
+                        <div class="product-category mt-2">
+                            <span class="title">Tags :</span>
+                            <ul>
+                                @if (Model.Product.ProductTags != null && Model.Product.ProductTags.Any())
+                                {
+                                    @foreach (ProductTag productTag in Model.Product.ProductTags)
+                                    {
+                                        <li class="d-inline-block me-1">
+                                            <a href="#" class="badge bg-light text-dark p-2 border" style="border-radius: 4px; font-size: 13px;">
+                                                @productTag.Tag?.Name
+                                            </a>
+                                        </li>
+                                    }
+                                }
+                                else
+                                {
+                                    <li><span class="text-muted">No tags available</span></li>
+                                }
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -11,5 +11,6 @@ namespace _27_FrontToBackSqlConnection.Models
         public string Description { get; set; }
         public Category Category { get; set; }
         public List<ProductImage> ProductImages { get; set; }
+        public List<ProductTag> ProductTags { get; set; } = new();
     }
 }

@@ -1,6 +1,6 @@
 ﻿@using _27_FrontToBackSqlConnection.Areas.AdminPanel.ViewModels.Product
 @using _27_FrontToBackSqlConnection.Models
-@model ProductCreateVM
+@model ProductUpdateVM
 
 <div class="main-panel">
     <div class="content-wrapper">
@@ -8,11 +8,11 @@
             <div class="col-md-6 grid-margin stretch-card">
                 <div class="card">
                     <div class="card-body">
-                        <h4 class="card-title">Create Product</h4>
+                        <h4 class="card-title">Update Product</h4>
                         <p class="card-description">
                             Add a new category to your store
                         </p>
-                        <form class="forms-sample" method="post" asp-action="Create" enctype="multipart/form-data">
+                        <form class="forms-sample" method="post" asp-action="Update" enctype="multipart/form-data">
                             <div class="form-group">
                                 <label asp-for="Name">Slider Name</label>
                                 <input asp-for="Name" class="form-control" placeholder="Enter slider Name">
@@ -35,22 +35,18 @@
                             </div>
                             <div class="form-group">
                                 <label asp-for="CategoryId">Category</label>
-                                <select asp-for="CategoryId" class="form-control">
+                                <select asp-for="CategoryId"
+                                        asp-items="@(new SelectList(Model.Categories, "Id", "Name"))"
+                                        class="form-control">
                                     <option selected disabled>-- Bir kateqoriya seçin --</option>
-                                    @foreach (Category category in Model.Categories)
-                                    {
-                                        <option value="@category.Id">@category.Name</option>
-                                    }
                                 </select>
                                 <span asp-validation-for="CategoryId" class="text-danger"></span>
                             </div>
                             <div class="form-group">
                                 <label asp-for="TagIds">Tag</label>
-                                <select asp-for="TagIds" class="form-control">
-                                    @foreach (Tag category in Model.Tags)
-                                    {
-                                        <option value="@category.Id">@category.Name</option>
-                                    }
+                                <select asp-for="TagIds"
+                                        asp-items="@(new SelectList(Model.Tags, "Id", "Name"))"
+                                        class="form-control">
                                 </select>
                                 <span asp-validation-for="TagIds" class="text-danger"></span>
                             </div>
