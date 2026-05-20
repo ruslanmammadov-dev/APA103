@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rWL62T7NUPg=",
+  "dgSpecHash": "O4Iga+SANQM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\rusla\\Desktop\\APA103\\27-FrontToBackSqlConnection\\27-FrontToBackSqlConnection.csproj",
+  "projectFilePath": "C:\\Users\\rusla\\OneDrive\\Desktop\\APA103\\27-FrontToBackSqlConnection\\27-FrontToBackSqlConnection.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rusla\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\rusla\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
