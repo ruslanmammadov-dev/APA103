@@ -133,8 +133,8 @@
                                         <div class="product-img">
                                             <a href="shop.html">
                                                 @{
-                                                    var primaryImg = prod.ProductImages?.FirstOrDefault(x => x.IsPrimary)?.Image;
-                                                    var hoverImg = prod.ProductImages?.FirstOrDefault(x => !x.IsPrimary)?.Image;
+                                                    var primaryImg = prod.ProductImages?.FirstOrDefault(x => x.IsPrimary == true)?.Image;
+                                                    var hoverImg = prod.ProductImages?.FirstOrDefault(x => x.IsPrimary == false)?.Image;
                                                 }
 
                                                 <img class="primary-img" src="~/assets/images/website-images/@primaryImg" alt="@prod.Name" />

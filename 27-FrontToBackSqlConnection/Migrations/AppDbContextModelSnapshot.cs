@@ -103,7 +103,7 @@ namespace _27_FrontToBackSqlConnection.Migrations
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
 
-                    b.Property<bool>("IsPrimary")
+                    b.Property<bool?>("IsPrimary")
                         .HasColumnType("bit");
 
                     b.Property<int>("ProductId")
