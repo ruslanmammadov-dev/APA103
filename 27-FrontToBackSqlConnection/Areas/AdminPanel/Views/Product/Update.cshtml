@@ -4,8 +4,11 @@
 
 @{
     string? MainPhoto = Model.ProductImages?.FirstOrDefault(pi => pi.IsPrimary == true)?.Image;
-    string? HoverPhoto = Model.ProductImages?.FirstOrDefault(pi => pi.IsPrimary == false)?.Image;
-    List<ProductImage> AdditionalPhotos = Model.ProductImages?.Where(pi => pi.IsPrimary == null).ToList() ?? new List<ProductImage>();
+    
+    var allFalsePhotos = Model.ProductImages?.Where(pi => pi.IsPrimary == false).ToList() ?? new List<ProductImage>();
+    
+    string? HoverPhoto = allFalsePhotos.FirstOrDefault()?.Image;
+    List<ProductImage> AdditionalPhotos = allFalsePhotos.Skip(1).ToList(); 
 }
 
 <div class="main-panel">
@@ -18,7 +21,8 @@
                         <p class="card-description">
                             Update your product details and images
                         </p>
-                        <form class="forms-sample" method="post" asp-action="Update" enctype="multipart/form-data">
+                        
+                        <form class="forms-sample" method="post" asp-action="Update" asp-route-id="@Context.Request.RouteValues["id"]" enctype="multipart/form-data">
 
                             <div class="form-group">
                                 <label asp-for="MainPhoto">Main Photo</label>
@@ -53,15 +57,17 @@
                                     {
                                         <div class="position-relative border p-1 rounded səkili-blok" style="width:110px;">
                                             <img style="width:100px; height:100px; object-fit:cover;" src="~/assets/images/website-images/@addImage.Image" />
-                                            <input asp-for="ImageIds" type="hidden" value="@addImage.Id" />
+                                            
+                                            <input type="hidden" name="ImageIds" value="@addImage.Id" />
+                                            
                                             <button type="button" class="btn btn-danger btn-sm custom-btn position-absolute" style="top:2px; right:2px; padding:2px 6px;">X</button>
                                         </div>
                                     }
                                 </div>
 
                                 <label asp-for="AdditionalPhoto">Upload New Additional Photos</label>
-                                <input asp-for="AdditionalPhoto" class="form-control" placeholder="Enter AdditionalPhoto">
-                                <span asp-validation-for="ImageIds" class="text-danger"></span>
+                                <input asp-for="AdditionalPhoto" class="form-control" multiple placeholder="Enter AdditionalPhoto">
+                                <span asp-validation-for="AdditionalPhoto" class="text-danger"></span>
                             </div>
 
                             <div class="form-group">

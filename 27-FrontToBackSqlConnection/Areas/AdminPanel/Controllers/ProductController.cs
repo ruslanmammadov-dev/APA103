@@ -46,7 +46,6 @@ namespace _27_FrontToBackSqlConnection.Areas.AdminPanel.Controllers
                 Categories = await _context.Categories.Where(c => !c.IsDeleted).ToListAsync(),
                 Tags = await _context.Tags.Where(t => !t.IsDeleted).ToListAsync()
             };
-
             return View(productCreateVM);
         }
 
@@ -58,114 +57,48 @@ namespace _27_FrontToBackSqlConnection.Areas.AdminPanel.Controllers
 
             if (!ModelState.IsValid) return View(productCreateVM);
 
-            if (!productCreateVM.MainPhoto.CheckFileType("image/"))
-            {
-                ModelState.AddModelError(nameof(productCreateVM.MainPhoto), "File type is incorrect!");
-                return View(productCreateVM);
-            }
-            if (!productCreateVM.MainPhoto.CheckFileSize(FileSizes.MB, 2))
-            {
-                ModelState.AddModelError(nameof(productCreateVM.MainPhoto), "Image size cannot exceed 2 MB!");
-                return View(productCreateVM);
-            }
-
-            if (!productCreateVM.HoverPhoto.CheckFileType("image/"))
-            {
-                ModelState.AddModelError(nameof(productCreateVM.HoverPhoto), "File type is incorrect!");
-                return View(productCreateVM);
-            }
-            if (!productCreateVM.HoverPhoto.CheckFileSize(FileSizes.MB, 2))
-            {
-                ModelState.AddModelError(nameof(productCreateVM.HoverPhoto), "Image size cannot exceed 2 MB!");
-                return View(productCreateVM);
-            }
-
-            bool existCategory = productCreateVM.Categories.Any(c => c.Id == productCreateVM.CategoryId);
-            if (!existCategory)
-            {
-                ModelState.AddModelError(nameof(productCreateVM.CategoryId), "Category does not exist!");
-                return View(productCreateVM);
-            }
-
-            if (productCreateVM.TagIds != null && productCreateVM.TagIds.Any())
-            {
-                bool existTag = productCreateVM.TagIds.Any(tagId => !productCreateVM.Tags.Exists(t => t.Id == tagId));
-                if (existTag)
-                {
-                    ModelState.AddModelError(nameof(productCreateVM.TagIds), "Tag does not exist!");
-                    return View(productCreateVM);
-                }
-            }
-
-            string mainFileName = await productCreateVM.MainPhoto.CreateFile(_env.WebRootPath, "assets", "images", "website-images");
-            string hoverFileName = await productCreateVM.HoverPhoto.CreateFile(_env.WebRootPath, "assets", "images", "website-images");
-
-            Product product = new()
+            Product newProduct = new()
             {
                 Name = productCreateVM.Name,
                 Price = productCreateVM.Price,
                 SKU = productCreateVM.SKU,
+                Description = productCreateVM.Description ?? string.Empty,
                 CategoryId = productCreateVM.CategoryId.Value,
-                Description = productCreateVM.Description ?? string.Empty, 
-                ProductTags = new List<ProductTag>(),
                 ProductImages = new List<ProductImage>()
             };
 
-            string info = string.Empty;
-
-            if (productCreateVM.AdditionalPhoto is not null)
+            if (productCreateVM.MainPhoto != null)
             {
-                if (productCreateVM.AdditionalPhoto != null && productCreateVM.AdditionalPhoto.Any())
-                {
-                    foreach (var file in productCreateVM.AdditionalPhoto)
-                    {
-                        if (!file.CheckFileType("image/"))
-                        {
-                            info += $"<p class=\"text-danger\">{file.FileName} type was not correct. </p>";
-                            continue;
-                        }
-                        if (!file.CheckFileSize(FileSizes.KB, 100))
-                        {
-                            info += $"<p class=\"text-danger\">{file.FileName} size was not correct. </p>";
-                            continue;
-                        }
-
-                        string additionalFileName = await file.CreateFile(_env.WebRootPath, "assets", "images", "website-images");
-
-                        product.ProductImages.Add(new ProductImage
-                        {
-                            Image = additionalFileName,
-                            IsPrimary = null
-                        });
-                    }
-                }
+                string mainFileName = await productCreateVM.MainPhoto.CreateFile(_env.WebRootPath, "assets", "images", "website-images");
+                newProduct.ProductImages.Add(new ProductImage { Image = mainFileName, IsPrimary = true });
             }
 
-            TempData["FileInfo"] = info;
+            if (productCreateVM.HoverPhoto != null)
+            {
+                string hoverFileName = await productCreateVM.HoverPhoto.CreateFile(_env.WebRootPath, "assets", "images", "website-images");
+                newProduct.ProductImages.Add(new ProductImage { Image = hoverFileName, IsPrimary = false });
+            }
 
             if (productCreateVM.AdditionalPhoto != null && productCreateVM.AdditionalPhoto.Any())
             {
                 foreach (var file in productCreateVM.AdditionalPhoto)
                 {
-                    string additionalFileName = await file.CreateFile(_env.WebRootPath, "assets", "images");
-                    product.ProductImages.Add(new ProductImage
-                    {
-                        Image = additionalFileName,
-                    });
+                    string additionalFileName = await file.CreateFile(_env.WebRootPath, "assets", "images", "website-images");
+                    newProduct.ProductImages.Add(new ProductImage { Image = additionalFileName, IsPrimary = null });
                 }
             }
 
             if (productCreateVM.TagIds != null)
             {
-                foreach (int tagId in productCreateVM.TagIds)
+                newProduct.ProductTags = new List<ProductTag>();
+                foreach (var tagId in productCreateVM.TagIds)
                 {
-                    product.ProductTags.Add(new ProductTag { TagId = tagId });
+                    newProduct.ProductTags.Add(new ProductTag { TagId = tagId });
                 }
             }
 
-            await _context.Products.AddAsync(product);
+            await _context.Products.AddAsync(newProduct);
             await _context.SaveChangesAsync();
-
             return RedirectToAction(nameof(Index));
         }
 
@@ -173,14 +106,12 @@ namespace _27_FrontToBackSqlConnection.Areas.AdminPanel.Controllers
         {
             if (id == null || id < 1) return BadRequest();
 
-            Product? existProduct = await _context.Products.Include(p => p.ProductImages).Include(p => p.ProductTags)
+            Product? existProduct = await _context.Products
+                .Include(p => p.ProductImages)
+                .Include(p => p.ProductTags)
                 .FirstOrDefaultAsync(p => p.Id == id && !p.IsDeleted);
 
             if (existProduct == null) return NotFound();
-
-            string? existMainPhoto = existProduct.ProductImages.FirstOrDefault(pi => pi.IsPrimary == true)?.Image;
-            string? existHoverPhoto = existProduct.ProductImages.FirstOrDefault(pi => pi.IsPrimary == false)?.Image;
-            List<ProductImage> existAdditionalPhotos = existProduct.ProductImages.Where(pi => pi.IsPrimary == null).ToList();
 
             ProductUpdateVM productUpdateVM = new()
             {
@@ -191,7 +122,7 @@ namespace _27_FrontToBackSqlConnection.Areas.AdminPanel.Controllers
                 CategoryId = existProduct.CategoryId,
                 TagIds = existProduct.ProductTags.Select(pt => pt.TagId).ToList(),
                 Categories = await _context.Categories.Where(c => !c.IsDeleted).ToListAsync(),
-                Tags = await _context.Tags.Where(c => !c.IsDeleted).ToListAsync(),
+                Tags = await _context.Tags.Where(t => !t.IsDeleted).ToListAsync(),
                 ProductImages = existProduct.ProductImages
             };
 
@@ -202,30 +133,88 @@ namespace _27_FrontToBackSqlConnection.Areas.AdminPanel.Controllers
         public async Task<IActionResult> Update(int? id, ProductUpdateVM productUpdateVM)
         {
             productUpdateVM.Categories = await _context.Categories.Where(c => !c.IsDeleted).ToListAsync();
+            productUpdateVM.Tags = await _context.Tags.Where(t => !t.IsDeleted).ToListAsync();
 
             if (id == null || id < 1) return BadRequest();
-            if (!ModelState.IsValid) return View(productUpdateVM);
 
             Product? existProduct = await _context.Products
+                .Include(p => p.ProductImages)
+                .Include(p => p.ProductTags)
                 .FirstOrDefaultAsync(p => p.Id == id && !p.IsDeleted);
 
             if (existProduct == null) return NotFound();
 
-            bool existCategory = productUpdateVM.Categories.Any(c => c.Id == productUpdateVM.CategoryId);
-            if (!existCategory)
+            productUpdateVM.ProductImages = existProduct.ProductImages;
+
+            if (!ModelState.IsValid) return View(productUpdateVM);
+
+            var deleteImages = existProduct.ProductImages
+                .Where(pi => (productUpdateVM.ImageIds == null || !productUpdateVM.ImageIds.Exists(imgId => imgId == pi.Id))
+                             && pi.IsPrimary == null)
+                .ToList();
+
+            deleteImages.ForEach(di => di.Image.DeleteFile(_env.WebRootPath, "assets", "images", "website-images"));
+
+            _context.ProductImages.RemoveRange(deleteImages);
+
+            if (productUpdateVM.ImageIds == null)
             {
-                ModelState.AddModelError(nameof(ProductUpdateVM.CategoryId), "Category does not exist!");
-                return View(productUpdateVM);
+                productUpdateVM.ImageIds = new List<int>();
+            }
+
+            if (productUpdateVM.MainPhoto != null)
+            {
+                string fileName = await productUpdateVM.MainPhoto.CreateFile(_env.WebRootPath, "assets", "images", "website-images");
+                ProductImage mainImage = existProduct.ProductImages.FirstOrDefault(p => p.IsPrimary == true);
+
+                if (mainImage != null)
+                {
+                    mainImage.Image.DeleteFile(_env.WebRootPath, "assets", "images", "website-images");
+                    existProduct.ProductImages.Remove(mainImage);
+                }
+
+                existProduct.ProductImages.Add(new ProductImage { Image = fileName, IsPrimary = true });
+            }
+
+            if (productUpdateVM.HoverPhoto != null)
+            {
+                string hoverFileName = await productUpdateVM.HoverPhoto.CreateFile(_env.WebRootPath, "assets", "images", "website-images");
+                ProductImage hoverImage = existProduct.ProductImages.FirstOrDefault(p => p.IsPrimary == false);
+
+                if (hoverImage != null)
+                {
+                    hoverImage.Image.DeleteFile(_env.WebRootPath, "assets", "images", "website-images");
+                    existProduct.ProductImages.Remove(hoverImage);
+                }
+
+                existProduct.ProductImages.Add(new ProductImage { Image = hoverFileName, IsPrimary = false });
+            }
+
+            if (productUpdateVM.AdditionalPhoto != null && productUpdateVM.AdditionalPhoto.Any())
+            {
+                foreach (var file in productUpdateVM.AdditionalPhoto)
+                {
+                    string additionalFileName = await file.CreateFile(_env.WebRootPath, "assets", "images", "website-images");
+                    existProduct.ProductImages.Add(new ProductImage { Image = additionalFileName, IsPrimary = null });
+                }
+            }
+
+            existProduct.ProductTags.Clear();
+            if (productUpdateVM.TagIds != null)
+            {
+                foreach (var tagId in productUpdateVM.TagIds)
+                {
+                    existProduct.ProductTags.Add(new ProductTag { TagId = tagId });
+                }
             }
 
             existProduct.Name = productUpdateVM.Name;
             existProduct.Price = productUpdateVM.Price;
-            existProduct.Description = productUpdateVM.Description;
+            existProduct.Description = productUpdateVM.Description ?? string.Empty;
             existProduct.SKU = productUpdateVM.SKU;
             existProduct.CategoryId = productUpdateVM.CategoryId.Value;
 
             await _context.SaveChangesAsync();
-
             return RedirectToAction(nameof(Index));
         }
     }
