@@ -3,12 +3,14 @@ using _27_FrontToBackSqlConnection.Db;
 using _27_FrontToBackSqlConnection.Models;
 using _27_FrontToBackSqlConnection.Utilities.Enums;
 using _27_FrontToBackSqlConnection.Utilities.Extension;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace _27_FrontToBackSqlConnection.Areas.AdminPanel.Controllers
 {
     [Area("AdminPanel")]
+    [Authorize(Roles = "Admin,Moderator")]
     public class ProductController : Controller
     {
         private readonly AppDbContext _context;
@@ -19,6 +21,7 @@ namespace _27_FrontToBackSqlConnection.Areas.AdminPanel.Controllers
             _context = context;
             _env = env;
         }
+        [Authorize(Roles = "Admin,Moderator,Member")]
         public async Task<IActionResult> Index()
         {
             List<ProductGetVM> products = await _context.Products
@@ -38,7 +41,7 @@ namespace _27_FrontToBackSqlConnection.Areas.AdminPanel.Controllers
 
             return View(products);
         }
-
+        [Authorize(Roles = "Admin,Moderator")]
         public async Task<IActionResult> Create()
         {
             ProductCreateVM productCreateVM = new()
@@ -49,6 +52,7 @@ namespace _27_FrontToBackSqlConnection.Areas.AdminPanel.Controllers
             return View(productCreateVM);
         }
 
+        [Authorize(Roles = "Admin,Moderator")]
         [HttpPost]
         public async Task<IActionResult> Create(ProductCreateVM productCreateVM)
         {
@@ -102,6 +106,7 @@ namespace _27_FrontToBackSqlConnection.Areas.AdminPanel.Controllers
             return RedirectToAction(nameof(Index));
         }
 
+        [Authorize(Roles = "Admin,Moderator")]
         public async Task<IActionResult> Update(int? id)
         {
             if (id == null || id < 1) return BadRequest();
@@ -129,6 +134,7 @@ namespace _27_FrontToBackSqlConnection.Areas.AdminPanel.Controllers
             return View(productUpdateVM);
         }
 
+        [Authorize(Roles = "Admin,Moderator")]
         [HttpPost]
         public async Task<IActionResult> Update(int? id, ProductUpdateVM productUpdateVM)
         {

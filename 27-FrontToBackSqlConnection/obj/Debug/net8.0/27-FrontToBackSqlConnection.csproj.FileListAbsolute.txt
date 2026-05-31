@@ -653,7 +653,8 @@ C:\Users\rusla\OneDrive\Desktop\APA103\27-FrontToBackSqlConnection\obj\Debug\net
 C:\Users\rusla\OneDrive\Desktop\APA103\27-FrontToBackSqlConnection\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\Users\rusla\OneDrive\Desktop\APA103\27-FrontToBackSqlConnection\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\rusla\OneDrive\Desktop\APA103\27-FrontToBackSqlConnection\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\rusla\OneDrive\Desktop\APA103\27-FrontToBackSqlConnection\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\rusla\OneDrive\Desktop\APA103\27-FrontToBackSqlConnection\obj\Debug\net8.0\27-Front.8932D9E4.Up2Date
 C:\Users\rusla\OneDrive\Desktop\APA103\27-FrontToBackSqlConnection\obj\Debug\net8.0\27-FrontToBackSqlConnection.genruntimeconfig.cache
 C:\Users\rusla\OneDrive\Desktop\APA103\27-FrontToBackSqlConnection\obj\Debug\net8.0\ref\27-FrontToBackSqlConnection.dll
+C:\Users\rusla\OneDrive\Desktop\APA103\27-FrontToBackSqlConnection\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\rusla\OneDrive\Desktop\APA103\27-FrontToBackSqlConnection\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

@@ -157,14 +157,6 @@ wwwroot\assets\fonts\Pe-icon-7-stroke.eot
 wwwroot\assets\fonts\Pe-icon-7-stroke.svg
 wwwroot\assets\fonts\Pe-icon-7-stroke.ttf
 wwwroot\assets\fonts\Pe-icon-7-stroke.woff
-wwwroot\assets\images\11c683c8-ddd1-452b-9b61-c6d20cb9546f1-2-524x617.png
-wwwroot\assets\images\1e18a82c-f34a-48ca-aac4-c8e4de45b1921-2-570x633.jpg
-wwwroot\assets\images\2d399f5d-1609-46d1-af2d-4023aa1c61d5indir.jpg
-wwwroot\assets\images\56f0d2be-9a0f-4395-8af9-8e7467180113indir.jpg
-wwwroot\assets\images\6307488c-56b9-4b43-a521-c9ea2fd4a5b41-1-768x546.webp
-wwwroot\assets\images\63f2f0d8-2f55-430a-872e-d541bea198f1indir.jpg
-wwwroot\assets\images\6f715585-0533-4526-b742-46a62c56a1d5indir (2).jpg
-wwwroot\assets\images\7282b9eb-d568-4aba-bc01-191e8e2e6d831-3-370x300.jpg
 wwwroot\assets\images\about\icon\1.png
 wwwroot\assets\images\about\icon\2.png
 wwwroot\assets\images\about\team\1-1-270x270.png
@@ -201,7 +193,6 @@ wwwroot\assets\images\brand\1-5.png
 wwwroot\assets\images\brand\bg\1-1170x300.jpg
 wwwroot\assets\images\breadcrumb\bg\1-1-1919x388.jpg
 wwwroot\assets\images\contact\1-1-370x500.jpg
-wwwroot\assets\images\d19615a8-35ff-499a-a63e-540653fe4a051-3-270x300.jpg
 wwwroot\assets\images\error-404\404.png
 wwwroot\assets\images\error-404\bg\1-1920x886.png
 wwwroot\assets\images\favicon.ico
@@ -255,7 +246,6 @@ wwwroot\assets\images\testimonial\icon\quotation.png
 wwwroot\assets\images\testimonial\user\1.png
 wwwroot\assets\images\testimonial\user\2.png
 wwwroot\assets\images\testimonial\user\3.png
-wwwroot\assets\images\website-images\0a908f80-87ef-484d-9c47-9a7131845150indir (2).jpg
 wwwroot\assets\images\website-images\1--1rnu4p.png
 wwwroot\assets\images\website-images\1-1-120x120.webp
 wwwroot\assets\images\website-images\1-1-1820x443.jpg
@@ -295,40 +285,16 @@ wwwroot\assets\images\website-images\1-7-270x300.jpg
 wwwroot\assets\images\website-images\1-8-270x300.jpg
 wwwroot\assets\images\website-images\1-9-270x300.jpg
 wwwroot\assets\images\website-images\1.png
-wwwroot\assets\images\website-images\11636678-f540-46bc-9987-3189dbba4af7indir (1).jpg
-wwwroot\assets\images\website-images\19a81d88-6a47-4219-bfae-9d8b058c2fde1-8-270x300.jpg
 wwwroot\assets\images\website-images\2-1-370x270.webp
 wwwroot\assets\images\website-images\2-1-70x78.png
 wwwroot\assets\images\website-images\2-2-370x270.webp
 wwwroot\assets\images\website-images\2-2-70x78.png
 wwwroot\assets\images\website-images\2-3-70x78.png
 wwwroot\assets\images\website-images\2.png
-wwwroot\assets\images\website-images\233e2a60-3b8a-4f4d-b769-d1afadedb8d6indir (2).jpg
-wwwroot\assets\images\website-images\2a5d48a7-a073-4613-ae7e-e5cc3af763bc1-3-270x300.jpg
 wwwroot\assets\images\website-images\3.png
-wwwroot\assets\images\website-images\32b82fa1-e48a-40e1-ae69-975d9dcef2f01-7-270x300.jpg
-wwwroot\assets\images\website-images\46d1e327-caa5-4007-ba95-fb354f712c9e1-3-370x300.jpg
-wwwroot\assets\images\website-images\53209081-c0dc-4a7b-8788-ac40cc8465d6indir.jpg
-wwwroot\assets\images\website-images\5c531a6c-fb9d-4028-9b80-5347660e6c71indir (2).jpg
-wwwroot\assets\images\website-images\5f730cd9-8393-4809-bfd9-8480d03741f61-4-270x300.jpg
-wwwroot\assets\images\website-images\630d9d57-5f1b-47fd-a69a-977c8a9583c91-2-570x633.jpg
-wwwroot\assets\images\website-images\6a4321ed-7cc6-4c84-96db-8ed1ba45613e1-1-120x120.webp
-wwwroot\assets\images\website-images\75895ac5-d778-40b8-a771-c26f94ed6d45indir.jpg
-wwwroot\assets\images\website-images\775d72a6-b911-4052-ae08-1b2293f5461aindir.jpg
-wwwroot\assets\images\website-images\7f59ffb6-fedc-4523-8809-c4a613b799f1indir (1).jpg
-wwwroot\assets\images\website-images\81b0f797-e4aa-45db-8d68-287755027b4aindir.jpg
-wwwroot\assets\images\website-images\a4794438-3051-4f66-810d-87e3d1bde8f2indir (1).jpg
-wwwroot\assets\images\website-images\a6e4b141-b137-48a0-8e08-a644758fee3e1-2-120x120.webp
-wwwroot\assets\images\website-images\ab68be81-d29d-4e91-bb2b-49cbba5e96531-2-120x120.webp
-wwwroot\assets\images\website-images\ad12eada-7285-476a-af5a-d19cd24226a5indir (2).jpg
-wwwroot\assets\images\website-images\bf1efd61-61a2-4238-99f3-428bb97348bf1-4-570x633.jpg
-wwwroot\assets\images\website-images\c2a1285c-eb0b-48eb-b12b-d7ec1d17875b1-9-270x300.jpg
 wwwroot\assets\images\website-images\car.png
 wwwroot\assets\images\website-images\card.png
-wwwroot\assets\images\website-images\cf6d200a-5a40-43ec-bdc1-1bbd6b0bb24c1-6-270x300.jpg
-wwwroot\assets\images\website-images\d0db5987-79b9-452c-8e57-bfdf428b17731-1-120x120.webp
 wwwroot\assets\images\website-images\dark.png
-wwwroot\assets\images\website-images\de2a9a82-fbc8-44eb-85f6-0ae0b38965ebindir (1).jpg
 wwwroot\assets\images\website-images\quotation.png
 wwwroot\assets\images\website-images\service.png
 wwwroot\assets\js\main.js
@@ -379,3 +345,37 @@ wwwroot\assets\scss\_slider.scss
 wwwroot\assets\scss\_testimonial.scss
 wwwroot\assets\scss\_variables.scss
 wwwroot\assets\scss\_wishlist.scss
+wwwroot\assets\images\63f2f0d8-2f55-430a-872e-d541bea198f1indir.jpg
+wwwroot\assets\images\website-images\0a908f80-87ef-484d-9c47-9a7131845150indir (2).jpg
+wwwroot\assets\images\website-images\7f59ffb6-fedc-4523-8809-c4a613b799f1indir (1).jpg
+wwwroot\assets\images\website-images\81b0f797-e4aa-45db-8d68-287755027b4aindir.jpg
+wwwroot\assets\images\56f0d2be-9a0f-4395-8af9-8e7467180113indir.jpg
+wwwroot\assets\images\website-images\233e2a60-3b8a-4f4d-b769-d1afadedb8d6indir (2).jpg
+wwwroot\assets\images\website-images\75895ac5-d778-40b8-a771-c26f94ed6d45indir.jpg
+wwwroot\assets\images\website-images\a4794438-3051-4f66-810d-87e3d1bde8f2indir (1).jpg
+wwwroot\assets\images\2d399f5d-1609-46d1-af2d-4023aa1c61d5indir.jpg
+wwwroot\assets\images\website-images\53209081-c0dc-4a7b-8788-ac40cc8465d6indir.jpg
+wwwroot\assets\images\website-images\ad12eada-7285-476a-af5a-d19cd24226a5indir (2).jpg
+wwwroot\assets\images\website-images\de2a9a82-fbc8-44eb-85f6-0ae0b38965ebindir (1).jpg
+wwwroot\assets\images\6f715585-0533-4526-b742-46a62c56a1d5indir (2).jpg
+wwwroot\assets\images\website-images\11636678-f540-46bc-9987-3189dbba4af7indir (1).jpg
+wwwroot\assets\images\website-images\5c531a6c-fb9d-4028-9b80-5347660e6c71indir (2).jpg
+wwwroot\assets\images\website-images\775d72a6-b911-4052-ae08-1b2293f5461aindir.jpg
+wwwroot\assets\images\11c683c8-ddd1-452b-9b61-c6d20cb9546f1-2-524x617.png
+wwwroot\assets\images\1e18a82c-f34a-48ca-aac4-c8e4de45b1921-2-570x633.jpg
+wwwroot\assets\images\6307488c-56b9-4b43-a521-c9ea2fd4a5b41-1-768x546.webp
+wwwroot\assets\images\7282b9eb-d568-4aba-bc01-191e8e2e6d831-3-370x300.jpg
+wwwroot\assets\images\d19615a8-35ff-499a-a63e-540653fe4a051-3-270x300.jpg
+wwwroot\assets\images\website-images\2a5d48a7-a073-4613-ae7e-e5cc3af763bc1-3-270x300.jpg
+wwwroot\assets\images\website-images\46d1e327-caa5-4007-ba95-fb354f712c9e1-3-370x300.jpg
+wwwroot\assets\images\website-images\630d9d57-5f1b-47fd-a69a-977c8a9583c91-2-570x633.jpg
+wwwroot\assets\images\website-images\ab68be81-d29d-4e91-bb2b-49cbba5e96531-2-120x120.webp
+wwwroot\assets\images\website-images\d0db5987-79b9-452c-8e57-bfdf428b17731-1-120x120.webp
+wwwroot\assets\images\website-images\19a81d88-6a47-4219-bfae-9d8b058c2fde1-8-270x300.jpg
+wwwroot\assets\images\website-images\32b82fa1-e48a-40e1-ae69-975d9dcef2f01-7-270x300.jpg
+wwwroot\assets\images\website-images\5f730cd9-8393-4809-bfd9-8480d03741f61-4-270x300.jpg
+wwwroot\assets\images\website-images\6a4321ed-7cc6-4c84-96db-8ed1ba45613e1-1-120x120.webp
+wwwroot\assets\images\website-images\a6e4b141-b137-48a0-8e08-a644758fee3e1-2-120x120.webp
+wwwroot\assets\images\website-images\bf1efd61-61a2-4238-99f3-428bb97348bf1-4-570x633.jpg
+wwwroot\assets\images\website-images\c2a1285c-eb0b-48eb-b12b-d7ec1d17875b1-9-270x300.jpg
+wwwroot\assets\images\website-images\cf6d200a-5a40-43ec-bdc1-1bbd6b0bb24c1-6-270x300.jpg

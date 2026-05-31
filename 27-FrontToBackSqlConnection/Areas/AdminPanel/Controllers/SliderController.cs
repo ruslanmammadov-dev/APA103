@@ -1,14 +1,16 @@
-﻿using _27_FrontToBackSqlConnection.Db;
+﻿using _27_FrontToBackSqlConnection.Areas.AdminPanel.ViewModels.Slider;
+using _27_FrontToBackSqlConnection.Db;
 using _27_FrontToBackSqlConnection.Models;
-using _27_FrontToBackSqlConnection.Utilities.Extension;
 using _27_FrontToBackSqlConnection.Utilities.Enums;
+using _27_FrontToBackSqlConnection.Utilities.Extension;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using _27_FrontToBackSqlConnection.Areas.AdminPanel.ViewModels.Slider;
 
 namespace _27_FrontToBackSqlConnection.Areas.AdminPanel.Controllers
 {
     [Area("AdminPanel")]
+    [Authorize(Roles = "Admin,Moderator")]
     public class SliderController : Controller
     {
         private readonly AppDbContext _context;
@@ -19,7 +21,7 @@ namespace _27_FrontToBackSqlConnection.Areas.AdminPanel.Controllers
             _context = context;
             _env = env;
         }
-
+        [Authorize(Roles = "Admin,Moderator,Member")]
         public async Task<IActionResult> Index()
         {
             List<Slider> sliders = await _context.Sliders
@@ -29,12 +31,14 @@ namespace _27_FrontToBackSqlConnection.Areas.AdminPanel.Controllers
             return View(sliders);
         }
 
+        [Authorize(Roles = "Admin,Moderator")]
         [HttpGet]
         public IActionResult Create()
         {
             return View();
         }
 
+        [Authorize(Roles = "Admin,Moderator")]
         [HttpPost]
         public async Task<IActionResult> Create(SliderCreateVM slider)
         {
@@ -67,6 +71,7 @@ namespace _27_FrontToBackSqlConnection.Areas.AdminPanel.Controllers
             return RedirectToAction(nameof(Index));
         }
 
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Delete(int id)
         {
             var slider = await _context.Sliders.FindAsync(id);
@@ -80,6 +85,7 @@ namespace _27_FrontToBackSqlConnection.Areas.AdminPanel.Controllers
             return RedirectToAction(nameof(Index));
         }
 
+        [Authorize(Roles = "Admin,Moderator")]
         public async Task<IActionResult> Update(int? id)
         {
             if (id is null || id < 1) return BadRequest();
@@ -102,6 +108,7 @@ namespace _27_FrontToBackSqlConnection.Areas.AdminPanel.Controllers
             return View(sliderUpdateVM);
         }
 
+        [Authorize(Roles = "Admin,Moderator")]
         public async Task<IActionResult> Detail(int? id)
         {
             if (id is null || id < 1) return BadRequest();
